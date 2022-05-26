@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 15, 15);
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #1b8ec4;
+}
+.search {
+  margin-left: auto;
+}
+
+.navbar input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #1b8ec4;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  max-width: 1000px;
+  font-weight: 600;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: justify;
+  background-color: rgb(243, 242, 242);
+}
+
+.main-content a {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.main-content a:hover {
+  color: rgb(63, 62, 62);
+}
+
+.main-content ul {
+  padding: 10px 0;
+}
+
+.sub-content {
+  margin-left: 50px;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.spinner {
+  position: absolute;
+  width: 50px;
+  top: 45%;
+  left: 48%;
+  display: block;
+}
+
+@media only screen and (max-width: 1069px) {
+  body > div {
+    margin: 10px 50px;
+  }
+}
